@@ -8,7 +8,7 @@
     <link href="css/bootstrap-responsive.css" rel="stylesheet">
     <link href="Style/Menu.css" rel="stylesheet">
     <link href="Style/index.css" rel="stylesheet">
-    
+    <script type="text/javascript" src="js/app.js"></script>
 
 
   </head>
@@ -139,7 +139,7 @@
 
 
 
-s
+
   <div class="hello">
  
 
@@ -149,12 +149,18 @@ s
 <legend>Creat User</legend>
 
 
-
+ <div class="control-group">
+  <label class="control-label" for="input01">Id</label>
+  <div class="controls">
+    <input type="text" class="input-small" id="input01">
+    
+  </div>
+  </div>
 
 <div class="control-group">
   <label class="control-label" for="input01">Name</label>
   <div class="controls">
-    <input type="text" class="input-xlarge" id="input01">
+    <input type="text" class="input-large" id="nameUser">
     
   </div>
   </div>
@@ -162,31 +168,44 @@ s
   <div class="control-group">
   <label class="control-label" for="input01">Last Name</label>
   <div class="controls">
-    <input type="text" class="input-xlarge" id="input01">
+    <input type="text" class="input-large" id="LastNameUser">
     
   </div>
 </div>
 
 
-
-
-  <div class="control-group">
-  <label class="control-label" for="input01">Id</label>
-  <div class="controls">
-    <input type="text" class="input-xlarge" id="input01">
-    
-  </div>
-  </div>
  
   <div class="control-group">
   <label class="control-label" for="input01">Email</label>
   <div class="controls">
-    <input type="text" class="input-xlarge" id="input01">
+    <input type="text" class="input-large" id="emailUser">
+   
+  </div>
+</div>
+<div class="control-group">
+  <label class="control-label" for="input01">Rol</label>
+  <div class="controls">
+    <select>
+      <option>Admistrator</option>
+      <option>Manager</option>
+      <option>Member</option>
+    </select>
+   
+  </div>
+</div>
+ 
+  
+  
+  <div class="controls-buttoms">
+   <button id="saveUser"class=" btn btn-danger">Cancel </button>
+   <button class=" btn btn-primary">Save </button>
    
   </div>
 </div>
 
-</div>
+
+
+
 
 
 
@@ -201,8 +220,6 @@ s
 
 
 
-</div>
-</div>
 
     <script src="http://code.jquery.com/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>

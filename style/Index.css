@@ -5,14 +5,20 @@ body{
 	color: white;
 }
 .hello{
-	
-	width: 650px;
+	background-color: #3fb130;
+	width: 600px;
 	height: 400px;
 	float: right;
+	margin-right: 100px;
 }
-.hello h1{
+.hello label{
 	color: #Abf778;
 }
-.hello h6{
-	color: #Abf778;
+.hello legend{
+	color: white;
+}
+.controls-buttoms{
+	width: 200px;
+	float: right;
+	margin-right: 40%;
 }
