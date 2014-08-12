@@ -1,0 +1,52 @@
+#leftMenu .accordion-group {
+    margin-bottom: 0px;
+    border:0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    margin-left: 0px;
+    background-color: #FFF;
+}    
+
+#leftMenu .accordion-heading {
+    height: 60px;
+    border-top: 1px ; 
+    border-bottom: 1px solid #5A5A5A; 
+    background-color: #58d306;
+    color: white;
+}  
+
+#leftMenu .accordion-heading  a{  
+    color: white; /* text color */
+    text-shadow: 0 1px 0 #3b3b3b; /* drop shadow */
+    text-decoration:none;
+    font-weight:bold;  
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+#leftMenu .accordion-heading  a:hover{  
+    color:#fff;    
+}
+
+#leftMenu .accordion-heading .active {
+    width: 182px;
+    height: 34px;
+    border: 1px solid #5b5b5b; /* inner stroke */
+    background-color: white; /* layer fill content */
+   
+}
+i{
+    color: white;
+}
+.vnav-counter {
+  float: right;
+  margin-top: 2px;
+  
+ 
+  font-size: 15px;
+  
+  
+  
+}
+

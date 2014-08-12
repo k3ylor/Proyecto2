@@ -1,0 +1,18 @@
+body{
+	background-color: #080808;
+}
+.color{
+	color: white;
+}
+.hello{
+	
+	width: 650px;
+	height: 400px;
+	float: right;
+}
+.hello h1{
+	color: #Abf778;
+}
+.hello h6{
+	color: #Abf778;
+}
